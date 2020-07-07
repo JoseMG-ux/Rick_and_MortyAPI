@@ -1,0 +1,27 @@
+body {
+      margin: 0;
+      background: #00a5be;
+      font-family: system-ui;
+      overflow-x: hidden;
+      background-position: left 200px top;
+      background-repeat: no-repeat;
+}
+.logo {
+      grid-area: logo;
+      margin: 0 auto 2em;
+      display: block;
+}
+.input-name{
+      border-radius: 0.5rem;
+      border-color: skyblue;
+      display: block;
+      border-style: groove;
+      background-color: rgb(86, 210, 231);
+}
+.error {
+      border-radius: 1.3rem;
+      padding: 1rem;
+      border: 1px solid red;
+      background-color: rgb(249, 121, 121);
+      color: white;
+}
